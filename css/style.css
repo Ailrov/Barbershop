@@ -1,0 +1,14 @@
+body {
+font-family: sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #282828;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
