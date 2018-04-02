@@ -14,6 +14,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.other-body {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -170,4 +176,35 @@ a {
 
 .restore:hover, .restore:focus {
   text-decoration: none;
+}
+
+.main-item-navigation {
+  list-style: none;
+}
+
+.main-item-navigation a {
+  color: #000000;
+}
+
+.main-item-navigation a:hover, .main-item-navigation a:focus {
+  text-decoration: underline;
+}
+
+.main-item-navigation li:last-child {
+  color: #ABA9A7;
+}
+
+.images-item {
+  list-style: none;
+}
+
+article {
+  color: #ABA9A7;
+}
+
+.cost {
+  background-color: #E5E5E5;
+  width: 110px;
+  height: 43px;
+  text-align: center;
 }
