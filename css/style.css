@@ -104,7 +104,7 @@ a {
 .main-footer {
   color: #ffffff;
   background-color: #212121;
-  background-image: url("../img/general/pattern-dark.jpg");
+background-image: url("../img/general/pattern-dark.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -204,7 +204,27 @@ article {
 
 .cost {
   background-color: #E5E5E5;
-  width: 110px;
-  height: 43px;
-  text-align: center;
+}
+
+.brends ul {
+  list-style: none;
+}
+
+.group-of-products ul {
+  list-style: none;
+}
+
+.catalog ul {
+
+  list-style: none;
+}
+
+.catalog span {
+  text-transform: none;
+  color: #000000;
+}
+
+.pagination-item  a {
+  color: #ffffff;
+  background-color: #000000;
 }
