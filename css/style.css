@@ -244,7 +244,7 @@ background-image: url("../img/general/pattern-dark.jpg");
 
 .mesh td {
   border:2px solid #000000;
-  padding: 15px 65px;
+  padding: 5px 65px;
 }
 
 .mesh {
@@ -458,4 +458,83 @@ background-image: url("../img/general/pattern-dark.jpg");
 .images-item li {
   display: inline;
   margin-right: 10px;
+}
+
+.box-shop {
+  height: 575px;
+  width: 185px;
+  margin-top: 50px;
+}
+
+.brends ul, .group-of-products ul {
+  padding-left: 0;
+}
+
+.brends {
+  margin-bottom: 45px;
+}
+
+.catalog {
+  width: 700px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.catalog ul li {
+  height: 288px;
+  width: 220px;
+  margin-bottom: 20px;
+  margin-right: 20px
+}
+
+.catalog ul li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.catalog ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0
+}
+
+.box-catalog {
+  display: flex;
+  justify-content: space-between;
+}
+
+#title-price {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 75px;
+}
+
+.price-brends ul {
+  padding-left: 15px;
+}
+
+.price-brends {
+  margin-bottom: 70px;
+}
+
+.price-brends h2 {
+  margin-bottom: 35px;
+}
+
+.about-company h2 {
+  margin-bottom: 35px;
+}
+
+.price-main-box {
+  display: flex;
+  justify-content: space-between;
+  height: 505px;
+}
+
+.price-box2 h2 {
+  margin-bottom: 35px;
+}
+
+.mesh {
+  margin-bottom: 130px;
 }
