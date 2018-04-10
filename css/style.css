@@ -41,7 +41,7 @@ a {
 
 .button {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin-right: 16px;
   font: inherit;
   text-align: center;
@@ -272,20 +272,7 @@ background-image: url("../img/pattern-dark.jpg");
   list-style: none;
 }
 
-.catalog ul {
 
-  list-style: none;
-}
-
-.catalog span {
-  text-transform: none;
-  color: #000000;
-}
-
-.pagination-item  a {
-  color: #ffffff;
-  background-color: #000000;
-}
 
 #title-price {
   font-size: 48px;
@@ -640,33 +627,80 @@ position: relative;
   margin-bottom: 45px;
 }
 
+.box-catalog {
+  display: flex;
+  justify-content: space-between;
+}
+
 .catalog {
   width: 700px;
   margin-top: 5px;
   margin-bottom: 25px;
 }
 
-.catalog ul li {
-  height: 288px;
+.catalog span {
+  color: #000000;
+}
+
+.product-block {
   width: 220px;
-  margin-bottom: 20px;
-  margin-right: 20px
+  line-height: 20px;
+  position: relative;
+  display: inline-block;
 }
 
-.catalog ul li:nth-child(3n) {
-  margin-right: 0;
+.name-product {
+  position: absolute;
+  width: 180px;
+  top: 170px;
+  right: 20px;
 }
 
-.catalog ul {
+.name-product h3 {
+  text-transform: none;
+  margin: 0;
+}
+
+.cost {
+  padding: 11px 25px;
+}
+
+.price-cost {
+  position: absolute;
+  top: 220px;
+  right: -38px;
+  width: 240px;
+}
+
+.price-cost a {
+  margin: 0;
+}
+
+.price-cost p {
+  margin: 0;
+}
+
+.pagination-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0
+  padding-left: 10px;
+  list-style: none;
 }
 
-.box-catalog {
-  display: flex;
-  justify-content: space-between;
+.pagination-item {
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+.pagination-item a {
+  padding: 15px 20px;
+  margin-right: 10px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.pagination-item-current a {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 #title-price {
